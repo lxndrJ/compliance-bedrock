@@ -1,0 +1,661 @@
+[
+  {
+    "PK": "PRODUCT#P-100",
+    "id": "PRODUCT#P-100",
+    "name": "EcoRun Running Shirt",
+    "category": "Textile / Sportswear",
+    "supplierId": "SUP#ABC",
+    "certificates": [
+      {
+        "type": "OEKO-TEX",
+        "issuer": "Hohenstein",
+        "issuedAt": "2025-02-01",
+        "expiresAt": "2027-02-01"
+      },
+      {
+        "type": "REACH",
+        "issuer": "TUV Rheinland",
+        "issuedAt": "2025-01-15",
+        "expiresAt": "2027-01-15"
+      },
+      {
+        "type": "GPSR",
+        "issuer": "TUV Rheinland",
+        "issuedAt": "2025-04-01",
+        "expiresAt": "2027-04-01"
+      }
+    ]
+  },
+  {
+    "PK": "PRODUCT#P-200",
+    "id": "PRODUCT#P-200",
+    "name": "Basic Cotton Tee",
+    "category": "Textile / Basics",
+    "supplierId": "SUP#XYZ",
+    "certificates": [
+      {
+        "type": "REACH",
+        "issuer": "SGS",
+        "issuedAt": "2025-03-01",
+        "expiresAt": "2027-03-01"
+      }
+    ]
+  },
+  {
+    "PK": "PRODUCT#P-101",
+    "id": "PRODUCT#P-101",
+    "name": "TrailPro Hiking Pants",
+    "category": "Textile / Outdoor",
+    "supplierId": "SUP#NOR",
+    "certificates": [
+      {
+        "type": "OEKO-TEX",
+        "issuer": "Hohenstein",
+        "issuedAt": "2025-05-01",
+        "expiresAt": "2027-05-01"
+      },
+      {
+        "type": "REACH",
+        "issuer": "SGS",
+        "issuedAt": "2025-05-01",
+        "expiresAt": "2027-05-01"
+      },
+      {
+        "type": "GPSR",
+        "issuer": "SGS",
+        "issuedAt": "2025-06-01",
+        "expiresAt": "2027-06-01"
+      },
+      {
+        "type": "GOTS",
+        "issuer": "Control Union",
+        "issuedAt": "2025-04-10",
+        "expiresAt": "2026-04-10"
+      }
+    ]
+  },
+  {
+    "PK": "PRODUCT#P-102",
+    "id": "PRODUCT#P-102",
+    "name": "AquaSwim Swim Goggles",
+    "category": "Hardgoods / Swim",
+    "supplierId": "SUP#GLO",
+    "certificates": [
+      {
+        "type": "REACH",
+        "issuer": "SGS",
+        "issuedAt": "2025-01-20",
+        "expiresAt": "2027-01-20"
+      },
+      {
+        "type": "GPSR",
+        "issuer": "SGS",
+        "issuedAt": "2025-02-20",
+        "expiresAt": "2027-02-20"
+      }
+    ]
+  },
+  {
+    "PK": "PRODUCT#P-103",
+    "id": "PRODUCT#P-103",
+    "name": "Tactical Field Jacket",
+    "category": "Textile / Tactical",
+    "supplierId": "SUP#TAC",
+    "certificates": [
+      {
+        "type": "OEKO-TEX",
+        "issuer": "Hohenstein",
+        "issuedAt": "2025-03-15",
+        "expiresAt": "2027-03-15"
+      },
+      {
+        "type": "REACH",
+        "issuer": "TUV",
+        "issuedAt": "2025-03-15",
+        "expiresAt": "2027-03-15"
+      },
+      {
+        "type": "GPSR",
+        "issuer": "TUV",
+        "issuedAt": "2025-03-15",
+        "expiresAt": "2027-03-15"
+      },
+      {
+        "type": "ISO9001",
+        "issuer": "DQS",
+        "issuedAt": "2025-01-01",
+        "expiresAt": "2028-01-01"
+      }
+    ]
+  },
+  {
+    "PK": "PRODUCT#P-104",
+    "id": "PRODUCT#P-104",
+    "name": "YogaFlex Leggings",
+    "category": "Textile / Sportswear",
+    "supplierId": "SUP#ABC",
+    "certificates": [
+      {
+        "type": "OEKO-TEX",
+        "issuer": "Hohenstein",
+        "issuedAt": "2025-06-01",
+        "expiresAt": "2027-06-01"
+      },
+      {
+        "type": "REACH",
+        "issuer": "TUV Rheinland",
+        "issuedAt": "2025-06-01",
+        "expiresAt": "2027-06-01"
+      },
+      {
+        "type": "GPSR",
+        "issuer": "TUV Rheinland",
+        "issuedAt": "2025-07-01",
+        "expiresAt": "2027-07-01"
+      },
+      {
+        "type": "GOTS",
+        "issuer": "Control Union",
+        "issuedAt": "2025-05-01",
+        "expiresAt": "2027-05-01"
+      }
+    ]
+  },
+  {
+    "PK": "PRODUCT#P-105",
+    "id": "PRODUCT#P-105",
+    "name": "CampStove Portable Burner",
+    "category": "Hardgoods / Camping",
+    "supplierId": "SUP#GLO",
+    "certificates": [
+      {
+        "type": "GPSR",
+        "issuer": "Intertek",
+        "issuedAt": "2025-08-01",
+        "expiresAt": "2027-08-01"
+      },
+      {
+        "type": "CE",
+        "issuer": "Intertek",
+        "issuedAt": "2025-07-15",
+        "expiresAt": "2027-07-15"
+      }
+    ]
+  },
+  {
+    "PK": "PRODUCT#P-106",
+    "id": "PRODUCT#P-106",
+    "name": "KidsPlay Soccer Ball",
+    "category": "Hardgoods / Kids",
+    "supplierId": "SUP#XYZ",
+    "certificates": [
+      {
+        "type": "REACH",
+        "issuer": "SGS",
+        "issuedAt": "2024-06-01",
+        "expiresAt": "2026-06-01"
+      },
+      {
+        "type": "CPSIA",
+        "issuer": "SGS",
+        "issuedAt": "2024-06-01",
+        "expiresAt": "2026-06-01"
+      },
+      {
+        "type": "BSCI",
+        "issuer": "amfori",
+        "issuedAt": "2025-01-01",
+        "expiresAt": "2027-01-01"
+      }
+    ]
+  },
+  {
+    "PK": "PRODUCT#P-107",
+    "id": "PRODUCT#P-107",
+    "name": "FitTrack Sports Watch",
+    "category": "Electronics / Wearables",
+    "supplierId": "SUP#GLO",
+    "certificates": [
+      {
+        "type": "GPSR",
+        "issuer": "Intertek",
+        "issuedAt": "2025-09-01",
+        "expiresAt": "2027-09-01"
+      },
+      {
+        "type": "CE",
+        "issuer": "Intertek",
+        "issuedAt": "2025-09-01",
+        "expiresAt": "2027-09-01"
+      },
+      {
+        "type": "UKCA",
+        "issuer": "Intertek",
+        "issuedAt": "2025-09-01",
+        "expiresAt": "2027-09-01"
+      }
+    ]
+  },
+  {
+    "PK": "PRODUCT#P-108",
+    "id": "PRODUCT#P-108",
+    "name": "Urban Commuter Backpack",
+    "category": "Softgoods / Bags",
+    "supplierId": "SUP#XYZ",
+    "certificates": [
+      {
+        "type": "REACH",
+        "issuer": "SGS",
+        "issuedAt": "2024-05-01",
+        "expiresAt": "2026-05-01"
+      },
+      {
+        "type": "GPSR",
+        "issuer": "SGS",
+        "issuedAt": "2024-05-01",
+        "expiresAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "PK": "PRODUCT#P-109",
+    "id": "PRODUCT#P-109",
+    "name": "Organic Cotton Hoodie",
+    "category": "Textile / Basics",
+    "supplierId": "SUP#ABC",
+    "certificates": [
+      {
+        "type": "OEKO-TEX",
+        "issuer": "Hohenstein",
+        "issuedAt": "2025-10-01",
+        "expiresAt": "2027-10-01"
+      },
+      {
+        "type": "REACH",
+        "issuer": "TUV Rheinland",
+        "issuedAt": "2025-10-01",
+        "expiresAt": "2027-10-01"
+      },
+      {
+        "type": "GPSR",
+        "issuer": "TUV Rheinland",
+        "issuedAt": "2025-10-01",
+        "expiresAt": "2027-10-01"
+      },
+      {
+        "type": "GOTS",
+        "issuer": "Control Union",
+        "issuedAt": "2025-09-15",
+        "expiresAt": "2027-09-15"
+      }
+    ]
+  },
+  {
+    "PK": "PRODUCT#P-110",
+    "id": "PRODUCT#P-110",
+    "name": "ProTec Bike Helmet",
+    "category": "Hardgoods / Cycling",
+    "supplierId": "SUP#NOR",
+    "certificates": [
+      {
+        "type": "GPSR",
+        "issuer": "SGS",
+        "issuedAt": "2025-04-01",
+        "expiresAt": "2027-04-01"
+      },
+      {
+        "type": "CE",
+        "issuer": "SGS",
+        "issuedAt": "2025-03-01",
+        "expiresAt": "2027-03-01"
+      },
+      {
+        "type": "UKCA",
+        "issuer": "SGS",
+        "issuedAt": "2025-03-01",
+        "expiresAt": "2027-03-01"
+      }
+    ]
+  },
+  {
+    "PK": "PRODUCT#P-111",
+    "id": "PRODUCT#P-111",
+    "name": "SnowPeak Ski Gloves",
+    "category": "Textile / Winter",
+    "supplierId": "SUP#NOR",
+    "certificates": [
+      {
+        "type": "OEKO-TEX",
+        "issuer": "Hohenstein",
+        "issuedAt": "2025-11-01",
+        "expiresAt": "2027-11-01"
+      },
+      {
+        "type": "REACH",
+        "issuer": "SGS",
+        "issuedAt": "2025-11-01",
+        "expiresAt": "2027-11-01"
+      },
+      {
+        "type": "GPSR",
+        "issuer": "SGS",
+        "issuedAt": "2025-11-01",
+        "expiresAt": "2027-11-01"
+      }
+    ]
+  },
+  {
+    "PK": "PRODUCT#P-112",
+    "id": "PRODUCT#P-112",
+    "name": "MilSpec Combat Boots",
+    "category": "Footwear / Tactical",
+    "supplierId": "SUP#TAC",
+    "certificates": [
+      {
+        "type": "REACH",
+        "issuer": "TUV",
+        "issuedAt": "2025-02-01",
+        "expiresAt": "2027-02-01"
+      },
+      {
+        "type": "GPSR",
+        "issuer": "TUV",
+        "issuedAt": "2025-02-01",
+        "expiresAt": "2027-02-01"
+      },
+      {
+        "type": "ISO9001",
+        "issuer": "DQS",
+        "issuedAt": "2025-02-01",
+        "expiresAt": "2028-02-01"
+      }
+    ]
+  },
+  {
+    "PK": "PRODUCT#P-113",
+    "id": "PRODUCT#P-113",
+    "name": "AeroDry Gym Towel",
+    "category": "Textile / Accessories",
+    "supplierId": "SUP#GLO",
+    "certificates": [
+      {
+        "type": "OEKO-TEX",
+        "issuer": "Hohenstein",
+        "issuedAt": "2025-08-15",
+        "expiresAt": "2027-08-15"
+      },
+      {
+        "type": "REACH",
+        "issuer": "SGS",
+        "issuedAt": "2025-08-15",
+        "expiresAt": "2027-08-15"
+      },
+      {
+        "type": "GPSR",
+        "issuer": "SGS",
+        "issuedAt": "2025-08-15",
+        "expiresAt": "2027-08-15"
+      },
+      {
+        "type": "BSCI",
+        "issuer": "amfori",
+        "issuedAt": "2025-07-01",
+        "expiresAt": "2027-07-01"
+      }
+    ]
+  },
+  {
+    "PK": "PRODUCT#P-114",
+    "id": "PRODUCT#P-114",
+    "name": "HomeGym Dumbbell Set",
+    "category": "Hardgoods / Fitness",
+    "supplierId": "SUP#XYZ",
+    "certificates": [
+      {
+        "type": "REACH",
+        "issuer": "SGS",
+        "issuedAt": "2025-01-01",
+        "expiresAt": "2027-01-01"
+      },
+      {
+        "type": "GPSR",
+        "issuer": "SGS",
+        "issuedAt": "2025-01-01",
+        "expiresAt": "2027-01-01"
+      },
+      {
+        "type": "CPSIA",
+        "issuer": "SGS",
+        "issuedAt": "2025-01-01",
+        "expiresAt": "2027-01-01"
+      }
+    ]
+  },
+  {
+    "PK": "PRODUCT#P-115",
+    "id": "PRODUCT#P-115",
+    "name": "RunLite Reflective Vest",
+    "category": "Textile / Safety",
+    "supplierId": "SUP#ABC",
+    "certificates": [
+      {
+        "type": "OEKO-TEX",
+        "issuer": "Hohenstein",
+        "issuedAt": "2025-05-20",
+        "expiresAt": "2027-05-20"
+      },
+      {
+        "type": "REACH",
+        "issuer": "TUV Rheinland",
+        "issuedAt": "2025-05-20",
+        "expiresAt": "2027-05-20"
+      },
+      {
+        "type": "GPSR",
+        "issuer": "TUV Rheinland",
+        "issuedAt": "2025-05-20",
+        "expiresAt": "2027-05-20"
+      }
+    ]
+  },
+  {
+    "PK": "PRODUCT#P-116",
+    "id": "PRODUCT#P-116",
+    "name": "TrekLite Sleeping Bag",
+    "category": "Textile / Outdoor",
+    "supplierId": "SUP#NOR",
+    "certificates": [
+      {
+        "type": "OEKO-TEX",
+        "issuer": "Hohenstein",
+        "issuedAt": "2024-01-10",
+        "expiresAt": "2026-01-10"
+      },
+      {
+        "type": "REACH",
+        "issuer": "SGS",
+        "issuedAt": "2024-01-10",
+        "expiresAt": "2026-01-10"
+      },
+      {
+        "type": "GPSR",
+        "issuer": "SGS",
+        "issuedAt": "2024-01-10",
+        "expiresAt": "2026-01-10"
+      }
+    ]
+  },
+  {
+    "PK": "PRODUCT#P-117",
+    "id": "PRODUCT#P-117",
+    "name": "StreetBall Basketball",
+    "category": "Hardgoods / Sport",
+    "supplierId": "SUP#GLO",
+    "certificates": [
+      {
+        "type": "GPSR",
+        "issuer": "Intertek",
+        "issuedAt": "2025-03-01",
+        "expiresAt": "2027-03-01"
+      }
+    ]
+  },
+  {
+    "PK": "PRODUCT#P-118",
+    "id": "PRODUCT#P-118",
+    "name": "EcoFit Yoga Mat",
+    "category": "Softgoods / Yoga",
+    "supplierId": "SUP#ABC",
+    "certificates": [
+      {
+        "type": "OEKO-TEX",
+        "issuer": "Hohenstein",
+        "issuedAt": "2025-04-15",
+        "expiresAt": "2027-04-15"
+      },
+      {
+        "type": "REACH",
+        "issuer": "TUV Rheinland",
+        "issuedAt": "2025-04-15",
+        "expiresAt": "2027-04-15"
+      },
+      {
+        "type": "GPSR",
+        "issuer": "TUV Rheinland",
+        "issuedAt": "2025-04-15",
+        "expiresAt": "2027-04-15"
+      },
+      {
+        "type": "GOTS",
+        "issuer": "Control Union",
+        "issuedAt": "2025-04-15",
+        "expiresAt": "2027-04-15"
+      }
+    ]
+  },
+  {
+    "PK": "CUSTOMER#DECATHLON",
+    "name": "Decathlon",
+    "requiredCerts": [
+      "OEKO-TEX"
+    ],
+    "supplierAuditRequired": true
+  },
+  {
+    "PK": "CUSTOMER#BUNDESWEHR",
+    "name": "Bundeswehr",
+    "requiredCerts": [
+      "ISO9001"
+    ],
+    "supplierAuditRequired": true
+  },
+  {
+    "PK": "CUSTOMER#H&M",
+    "name": "H&M",
+    "requiredCerts": [
+      "OEKO-TEX",
+      "GOTS"
+    ],
+    "supplierAuditRequired": false
+  },
+  {
+    "PK": "CUSTOMER#ZALANDO",
+    "name": "Zalando",
+    "requiredCerts": [
+      "REACH",
+      "OEKO-TEX"
+    ],
+    "supplierAuditRequired": false
+  },
+  {
+    "PK": "CUSTOMER#WALMART",
+    "name": "Walmart",
+    "requiredCerts": [
+      "CPSIA",
+      "BSCI"
+    ],
+    "supplierAuditRequired": true
+  },
+  {
+    "PK": "COUNTRY#GERMANY",
+    "country": "Germany",
+    "requiredRules": [
+      "REACH",
+      "GPSR"
+    ]
+  },
+  {
+    "PK": "COUNTRY#FRANCE",
+    "country": "France",
+    "requiredRules": [
+      "REACH",
+      "GPSR"
+    ]
+  },
+  {
+    "PK": "COUNTRY#UK",
+    "country": "United Kingdom",
+    "requiredRules": [
+      "UKCA",
+      "GPSR"
+    ]
+  },
+  {
+    "PK": "COUNTRY#USA",
+    "country": "United States",
+    "requiredRules": [
+      "CPSIA",
+      "GPSR"
+    ]
+  },
+  {
+    "PK": "SUP#ABC",
+    "name": "ABC Textiles",
+    "country": "Portugal",
+    "audit": {
+      "passed": true,
+      "auditedAt": "2025-03-10",
+      "nextAuditDue": "2027-03-10"
+    }
+  },
+  {
+    "PK": "SUP#XYZ",
+    "name": "XYZ Manufacturing",
+    "country": "China",
+    "audit": {
+      "passed": false,
+      "auditedAt": "2024-11-02",
+      "nextAuditDue": "2025-11-02"
+    }
+  },
+  {
+    "PK": "SUP#NOR",
+    "name": "Nordic Outdoor",
+    "country": "Sweden",
+    "audit": {
+      "passed": true,
+      "auditedAt": "2025-01-20",
+      "nextAuditDue": "2027-01-20"
+    }
+  },
+  {
+    "PK": "SUP#TAC",
+    "name": "Tactical Gear Co",
+    "country": "Germany",
+    "audit": {
+      "passed": true,
+      "auditedAt": "2025-06-01",
+      "nextAuditDue": "2026-06-01"
+    }
+  },
+  {
+    "PK": "SUP#GLO",
+    "name": "Global Sportswear",
+    "country": "Vietnam",
+    "audit": {
+      "passed": true,
+      "auditedAt": "2025-05-15",
+      "nextAuditDue": "2027-05-15"
+    }
+  }
+]
