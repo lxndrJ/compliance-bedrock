@@ -1,0 +1,163 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "ComplianceTools",
+    "description": "Tools the compliance agent uses to verify products, markets, customers, and certificates.",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/products/{product_id}": {
+      "get": {
+        "operationId": "get_product",
+        "description": "Fetch product master data: supplier and certificates on file.",
+        "parameters": [
+          {
+            "name": "product_id",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "string" },
+            "description": "Product identifier, e.g. P-100"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Product record",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "id": { "type": "string" },
+                    "name": { "type": "string" },
+                    "supplier": { "type": "string" },
+                    "certificates": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "type": { "type": "string" },
+                          "issuer": { "type": "string" },
+                          "issuedAt": { "type": "string" },
+                          "expiresAt": { "type": "string" }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "404": { "description": "Product not found" }
+        }
+      }
+    },
+    "/countries/{country}": {
+      "get": {
+        "operationId": "get_country_rules",
+        "description": "Fetch the mandatory compliance rules for a target market.",
+        "parameters": [
+          {
+            "name": "country",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "string" },
+            "description": "Country name, e.g. Germany"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Country rule set",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "country": { "type": "string" },
+                    "required": { "type": "array", "items": { "type": "string" } }
+                  }
+                }
+              }
+            }
+          },
+          "404": { "description": "Country not supported" }
+        }
+      }
+    },
+    "/customers/{customer}": {
+      "get": {
+        "operationId": "get_customer_rules",
+        "description": "Fetch the mandatory certificates and supplier-audit requirement of a customer.",
+        "parameters": [
+          {
+            "name": "customer",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "string" },
+            "description": "Customer name, e.g. Decathlon"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Customer rule set",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "customer": { "type": "string" },
+                    "required": { "type": "array", "items": { "type": "string" } },
+                    "supplierAuditRequired": { "type": "boolean" }
+                  }
+                }
+              }
+            }
+          },
+          "404": { "description": "Customer not supported" }
+        }
+      }
+    },
+    "/certificates/check": {
+      "post": {
+        "operationId": "check_certificates",
+        "description": "Verify that a product's certificates exist, are not expired, and are valid today.",
+        "parameters": [
+          {
+            "name": "product_id",
+            "in": "query",
+            "required": true,
+            "schema": { "type": "string" },
+            "description": "Product identifier, e.g. P-100"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Certificate check result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "productId": { "type": "string" },
+                    "certificates": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "type": { "type": "string" },
+                          "valid": { "type": "boolean" },
+                          "expiresAt": { "type": "string" },
+                          "daysRemaining": { "type": "integer" }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "404": { "description": "Product not found" }
+        }
+      }
+    }
+  }
+}
